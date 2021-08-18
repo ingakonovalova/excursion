@@ -4,7 +4,16 @@ html {
     text-align: center;
 }
 
-/* Header */
+/* Flex containers */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+/* First container elements */
 a {
     color: aquamarine;
     font-size: 16px;
@@ -16,7 +25,7 @@ h1 {
     font-size: 50px;
 }
 
-/* Section 1 */
+/* Second container elements */
 section h1 {
     font-weight: 300;
     font-size: 42px;
@@ -27,14 +36,10 @@ p {
     font-size: 21px;
 }
 
-img {
-    align-items: center;
-}
-
-/* Section 2 */
+/* Third container elements */
 
 #phone {
-    margin-top: 20px;
+    margin: 5%;
 }
 
 /* Footer */
